@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <script src="https://kit.fontawesome.com/b0482a4822.js" crossorigin="anonymous"></script>
+    <title>Feedback</title>
+</head>
+<body>
+    <nav>
+        <ul class="navList">
+            <a href="index.html"><p>Home</p></a>
+        </ul>
+        <ul class="navList">
+            <a href="content1.html"><p>Pontianak</p></a>
+        </ul>
+        <ul class="navList">
+            <a href="content2.html"><p>Singkawang(kosongan)</p></a>
+        </ul>
+        <ul class="navList">
+            <a href="feedback.html"><p >Feedback</p></a>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="index1" style="font-size: 2rem;">What do you think about the website?</h1>
+    </header>
+    <main>
+        <div class="back">
+            <form class="form-container" id="feedbackForm">
+                <h2 class="titleHeader" style="text-align: center;">Please let us know!</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <div id="favPage">
+                    <p>Which page is your favorite :</p>
+                    <input type="radio" id="home" name="fav_page" value="home">
+                    <label for="home" id="home">Home page</label><br>
+                    <input type="radio" id="content" name="fav_page" value="content">
+                    <label for="content" id="content">Content page</label><br>
+                    <input type="radio" id="feedback" name="fav_page" value="feedback">
+                    <label for="feedback" id="content">Feedback page</label>
+                </div>
+
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                    
+                <button type="submit" id="submit">Submit</button>
+            </form> 
+        </div>
+        <aside>
+            <div class="floatingButton-1">
+                <a href="https://www.instagram.com/velenn._/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="floatingButton-2">
+                <a href="https://www.linkedin.com/in/velengio-deriksen-charles-94a375186/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Learning Labs 2024 | L0124080 Velengio Deriksen Charles</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
